@@ -1,0 +1,42 @@
+﻿<!DOCTYPE html>
+
+<html lang="en"lang="he" dir="rtl" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body>
+    <div>
+        <form action="/" method="post">
+            <label for="username">שם פרטי</label>
+            <input id="username" type="text" id="username" name="username" placeholder="הכנס שם" required>
+            <br>
+            <label for="email">אימייל</label>
+            <input id="email" type="email" name="email" required placeholder="name@example.com" />
+            <br>
+            <label for="password">סיסמה</label>
+            <input id="password" type="password" name="pwd" minlength"="8" />
+            <br>
+            <label for="age">גיל</label>
+            <input id="age" type="number" name="age" min="0" max="120" step="1" />
+            <br>
+            <label for="gender">מין</label>
+            <label><input id="gender" type="radio" name="gender" value="male" />זכר</label>
+            <label><input id="gender" type="radio" name="gender" value="women" />מדיח כלים</label>
+            <br>
+            <label><input type="checkbox" name="aprove" value="yes" />מסכים לתנאי השימוש</label>
+            <br>
+            <input type="file" name="avatar" accept="image/*" />
+            <br>
+            <label for="color">צבע מועדף</label>
+            <input type="color" />
+            <br>
+            <label for="infromation">קצת עליך</label>
+            <textarea id="infromation" name="messege" cols="30" role="4" placeholder="הכנס את המידע כאן"></textarea>
+            <br>
+            <input type="submit" value="שלח">
+        </form>
+    </div>
+
+</body>
+</html>
